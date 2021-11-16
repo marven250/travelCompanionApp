@@ -10,8 +10,8 @@ var options = {
     tr_longitude: '109.149359',
   },
   headers: {
-    'x-rapidapi-host': 'travel-advisor.p.rapidapi.com',
-    'x-rapidapi-key': '66822c5c39msh90cfe72c5fb77eap113a2ejsn80082c0924e0'
+    'x-rapidapi-host': process.env.REACT_APP_RAPIDAPI_HOST,
+    'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY
   }
 };
 
